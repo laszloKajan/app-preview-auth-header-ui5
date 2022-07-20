@@ -1,0 +1,13 @@
+<mvc:View controllerName="app.preview.auth.header.ui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:l="sap.ui.layout"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <l:VerticalLayout class="sapUiContentPadding" width="100%">
+                <Label text="Loaded without Authorization header: {loaded_Without_AuthHeader>/content_Without_AuthHeader}"/>
+                <Label text="Loaded with Authorization header: {loaded_With_AuthHeader>/content_With_AuthHeader}"/>
+            </l:VerticalLayout>
+        </content>
+    </Page>
+</mvc:View>

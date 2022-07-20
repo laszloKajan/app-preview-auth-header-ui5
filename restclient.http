@@ -1,0 +1,6 @@
+### Without auth header
+GET http://localhost:8080/my-custom-endpoint
+
+### With auth header
+GET http://localhost:8080/my-custom-endpoint
+Authorization: Bearer some.bearertoken.here
